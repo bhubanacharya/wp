@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wholesale Pashmina - Luxury Cashmere & Silk Supplier from Nepal</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            orange: '#e28743',
+                            darkorange: '#c87030',
+                            lightorange: '#fdf6f0',
+                            charcoal: '#2d2d2d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #2d2d2d;
+        }
+
+        /* Custom dropdown hover behavior for desktop */
+        @media (min-width: 768px) {
+            .group:hover .dropdown-menu {
+                display: block;
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+            }
+        }
+
+        .dropdown-menu {
+            transition: all 0.2s ease-in-out;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+        }
+    </style>
+</head>
+
+<body class="bg-white antialiased">
+
+    <!-- HEADER SECTION -->
+    <header class="w-full bg-white shadow-sm sticky top-0 z-50">
+        <!-- Top Announcement Bar -->
+        <div class="bg-brand-orange text-white text-xs py-2 px-4 text-center font-medium">
+            <span>Direct from Nepal Handcrafted Artisans | Worldwide Wholesale Shipping | Custom Orders Welcome</span>
+        </div>
+
+        <div class="container mx-auto px-4 py-4 flex flex-col items-center">
+            <!-- Centered Logo -->
+            <a href="#" class="mb-4 inline-block focus:outline-none">
+                <img src="images/logo.png" alt="Wholesale Pashmina " class="h-14 sm:h-16 object-contain"
+                    onerror="this.src='https://placehold.co/240x70/e28743/ffffff?text=WHOLESALE+PASHMINA'">
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn"
+                class="md:hidden absolute top-16 right-4 text-brand-charcoal p-2 focus:outline-none"
+                aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+
+            <!-- Navigation Bar -->
+            <nav id="main-nav"
+                class="hidden md:flex flex-wrap justify-center items-center gap-6 lg:gap-10 pt-2 pb-1 border-t border-gray-100 w-full text-sm font-medium">
+
+                <!-- Menu 1: Pashmina -->
+                <div class="relative group py-2">
+                    <button class="flex items-center gap-1 hover:text-brand-orange transition-colors">
+                        Pashmina <i class="fa-solid fa-chevron-down text-xs"></i>
+                    </button>
+                    <!-- Submenu -->
+                    <div
+                        class="dropdown-menu md:absolute left-0 mt-2 w-72 bg-white border border-gray-100 shadow-lg rounded-xl py-2 z-50">
+                        <a href="100_cashmere_shawl.html" " class=" block px-4 py-2 text-sm hover:bg-brand-lightorange
+                            hover:text-brand-orange transition-colors">PASHMINA
+                            100% CASHMERE Shawl</a>
+                        <a href="100_cashmere_scarf.html"
+                            class="block px-4 py-2 text-sm hover:bg-brand-lightorange hover:text-brand-orange transition-colors">PASHMINA
+                            100% CASHMERE SCARF</a>
+                        <a href="70cashmere_30_silk.html"
+                            class="block px-4 py-2 text-sm hover:bg-brand-lightorange hover:text-brand-orange transition-colors">PASHMINA
+                            70% CASHMERE 30% SILK Shawl</a>
+                        <a href="70cashmere_30_silk_scarf"
+                            class="block px-4 py-2 text-sm hover:bg-brand-lightorange hover:text-brand-orange transition-colors">PASHMINA
+                            70% CASHMERE 30% SILK Scarf</a>
+                        <a href="cashmere_summer_scarf.html"
+                            class="block px-4 py-2 text-sm hover:bg-brand-lightorange hover:text-brand-orange transition-colors">Summer
+                            Pashmina</a>
+                    </div>
+                </div>
+
+                <!-- Menu 2: Knitted Scarves -->
+                <div class="relative group py-2">
+                    <button class="flex items-center gap-1 hover:text-brand-orange transition-colors">
+                        Knitted Scarves <i class="fa-solid fa-chevron-down text-xs"></i>
+                    </button>
+                    <!-- Submenu -->
+                    <div
+                        class="dropdown-menu md:absolute left-0 mt-2 w-64 bg-white border border-gray-100 shadow-lg rounded-xl py-2 z-50">
+                        <a href="cashmere_travel_wrap.html"
+                            class="block px-4 py-2 text-sm hover:bg-brand-lightorange hover:text-brand-orange transition-colors">100%
+                            Cashmere Travel Wrap</a>
+                        <a href="cashmere_scarves.html"
+                            class="block px-4 py-2 text-sm hover:bg-brand-lightorange hover:text-brand-orange transition-colors">100%
+                            Cashmere Scarves</a>
+                    </div>
+                </div>
+
+                <!-- Menu 3: Accessories -->
+                <div class="relative group py-2">
+                    <button class="flex items-center gap-1 hover:text-brand-orange transition-colors">
+                        Accessories <i class="fa-solid fa-chevron-down text-xs"></i>
+                    </button>
+                    <!-- Submenu -->
+                    <div
+                        class="dropdown-menu md:absolute left-0 mt-2 w-56 bg-white border border-gray-100 shadow-lg rounded-xl py-2 z-50">
+                        <a href="hats_beanies.html"
+                            class="block px-4 py-2 text-sm hover:bg-brand-lightorange hover:text-brand-orange transition-colors">CASHMERE
+                            HATS & BEANIES</a>
+                        <a href="gloves.html"
+                            class="block px-4 py-2 text-sm hover:bg-brand-lightorange hover:text-brand-orange transition-colors">Gloves</a>
+                    </div>
+                </div>
+
+                <!-- Additional Quick Links -->
+                <a href="custom_made.html" class="hover:text-brand-orange transition-colors py-2">Custom Made</a>
+                <a href="contact.html" class="hover:text-brand-orange transition-colors py-2">Contact Us</a>
+            </nav>
+
+            <!-- Mobile Navigation Drawer -->
+            <div id="mobile-menu"
+                class="hidden md:hidden w-full pt-4 pb-2 border-t border-gray-100 flex flex-col space-y-3 text-sm font-medium">
+                <div class="font-bold text-brand-orange px-2">Pashmina</div>
+                <a href="100_cashmere_shawl.html" class="pl-4 py-1 text-gray-700">PASHMINA 100% CASHMERE Shawl</a>
+                <a href="100_cashmere_scarf.html" class="pl-4 py-1 text-gray-700">PASHMINA 100% CASHMERE SCARF</a>
+                <a href="70cashmere_30_silk.html" class="pl-4 py-1 text-gray-700">PASHMINA 70% CASHMERE 30% SILK
+                    Shawl</a>
+                <a href="70cashmere_30_silk_scarf.html" class="pl-4 py-1 text-gray-700">PASHMINA 70% CASHMERE 30% SILK
+                    Scarf</a>
+                <a href="cashmere_summer_scarf.html" class="pl-4 py-1 text-gray-700">Summer Pashmina</a>
+                <div class="font-bold text-brand-orange px-2 pt-2">Knitted Scarves</div>
+                <a href="cashmere_travel_wrap.html" class="pl-4 py-1 text-gray-700">100% Cashmere Travel Wrap</a>
+                <a href="cashmere_scarves.html" class="pl-4 py-1 text-gray-700">100% Cashmere Scarves</a>
+                <div class="font-bold text-brand-orange px-2 pt-2">Accessories</div>
+                <a href="hats_beanies.html" class="pl-4 py-1 text-gray-700">CASHMERE HATS & BEANIES</a>
+                <a href="gloves.html" class="pl-4 py-1 text-gray-700">Gloves</a>
+                <a href="custom_made.html" class="font-bold text-brand-orange px-2 pt-2">Custom-Made Services</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative w-full h-[550px] sm:h-[650px] bg-gray-900 overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image: url('images/cashmere-background.jpg');">
+            <div class="absolute inset-0 bg-black/40"></div>
+        </div>
+
+        <div
+            class="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center text-white">
+            <span
+                class="bg-brand-orange text-white text-xs sm:text-sm font-semibold tracking-widest uppercase px-4 py-1.5 rounded-full mb-4 shadow-md">
+                Handcrafted Luxury in Nepal
+            </span>
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight max-w-4xl mb-6">
+                Authentic Cashmere & Silk Masterpieces
+            </h1>
+            <p class="text-base sm:text-xl max-w-2xl text-gray-100 font-light mb-8">
+                Exquisite stoles, scarves, and bespoke creations crafted by master knitters with unmatched softness and
+                timeless elegance.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#products-section"
+                    class="bg-brand-orange hover:bg-brand-darkorange text-white font-semibold px-8 py-3.5 rounded-xl shadow-lg transition-all duration-300 transform hover:-translate-y-0.5">
+                    Explore Wholesale Collection
+                </a>
+                <a href="#custom-made"
+                    class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 font-semibold px-8 py-3.5 rounded-xl transition-all duration-300">
+                    Custom Made Orders
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER SECTION / CALLOUT -->
+
+
+
+    <section class="features-section">
+        <div class="features-container">
+
+            <div class="feature-box">
+                <div class="feature-icon">◌</div>
+                <h3>Handmade in Nepal</h3>
+                <p>
+                    Every piece is genuinely handmade – crafted by experienced knitters and weavers.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <div class="feature-icon">♧</div>
+                <h3>100% Mongolian Cashmere</h3>
+                <p>
+                    We use only the finest and softest cashmere yarns, mostly we uses CONSINEE brand yarn
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <div class="feature-icon">◉</div>
+                <h3>Traditional craftsmanship</h3>
+                <p>
+                    Knitting, weaving and finishing – all done carefully by hand. We utilize azo-free dyeing
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <div class="feature-icon">♧</div>
+                <h3>Our Commitment</h3>
+                <p>
+                    We are a responsible partner dedicated to on-time, high-quality delivery.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CUSTOM-MADE SECTION -->
+    <section id="custom-made" class="py-16 sm:py-24 container mx-auto px-4">
+        <div
+            class="bg-white border-2 border-brand-orange/30 rounded-3xl p-8 sm:p-12 shadow-xl grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div class="space-y-6">
+                <div
+                    class="inline-block bg-brand-lightorange text-brand-orange text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-md">
+                    Bespoke Service
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-bold text-brand-charcoal leading-tight">
+                    Custom-Made or Made-to-Measure Cashmere
+                </h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Create your perfect cashmere piece by selecting from a variety of styles, sizes, and colors. We
+                    offer full customization with no minimum order requirement.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    In just 4-5 weeks, you'll receive a one-of-a-kind, bespoke cashmere garment crafted just for you by
+                    our expert knitters in Nepal. Please email us or WhatsApp us for more information.
+                </p>
+                <div class="pt-4 flex flex-wrap gap-4">
+                    <a href="mailto:info@wholesalepashmina.com"
+                        class="bg-brand-orange hover:bg-brand-darkorange text-white font-medium px-6 py-3 rounded-xl shadow transition-colors flex items-center gap-2">
+                        <i class="fa-solid fa-envelope"></i> Email Us
+                    </a>
+                    <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer"
+                        class="bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-6 py-3 rounded-xl shadow transition-colors flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+            <div class="relative h-72 sm:h-96 rounded-2xl overflow-hidden shadow-lg">
+                <img src="images/cashmere-linking.jpg" alt="Custom Made Cashmere" class="w-full h-full object-cover"
+                    onerror="this.src='https://placehold.co/800x600/e28743/ffffff?text=Cashmere+Artisans'">
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="products-section" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+
+                <h2 class="text-3xl sm:text-4xl font-bold text-brand-charcoal mt-3">Regular Selling Categories</h2>
+                <p class="text-gray-600 mt-2">Explore our signature wholesale pashmina lines renowned across global
+                    markets.</p>
+            </div>
+
+            <div class="space-y-16">
+
+                <!-- Category 1 -->
+                <div id="cat-shawl-100"
+                    class="bg-white rounded-3xl p-6 sm:p-10 shadow-md grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-5 h-72 sm:h-80 rounded-2xl overflow-hidden shadow">
+                        <img src="images/pure-cashmere.jpg" alt="PASHMINA 100% CASHMERE Shawl"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                            onerror="this.src='https://placehold.co/600x450/e28743/ffffff?text=Cashmere+Shawl'">
+                    </div>
+                    <div class="lg:col-span-7 space-y-4">
+                        <span class="text-xs font-bold text-brand-orange uppercase tracking-wider"></span>
+                        <h3 class="text-2xl sm:text-3xl font-bold text-brand-charcoal">PASHMINA 100% CASHMERE Shawl</h3>
+                        <p class="text-gray-600 leading-relaxed text-base sm:text-lg">
+                            A stole (90 x 200 cm) made of 100% pure cashmere wool – it sounds as luxuriously soft as it
+                            feels. The fluffy, loose weave with its subtly open hem ensures such unparalleled comfort
+                            that you won't want to take it off. Whether at the theater, a party, or a cool summer
+                            evening on the terrace – enjoy this understated luxury you can touch.
+                        </p>
+                        <div class="pt-2">
+                            <a href="#custom-made"
+                                class="inline-flex items-center gap-2 text-brand-orange font-semibold hover:underline">
+                                Inquire Wholesale Pricing <i class="fa-solid fa-arrow-right text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div id="cat-scarf-100"
+                    class="bg-white rounded-3xl p-6 sm:p-10 shadow-md grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-5 h-72 sm:h-80 rounded-2xl overflow-hidden shadow lg:order-2">
+                        <img src="images/100-cashmere-scarf.jpg" alt="PASHMINA 100% CASHMERE SCARF"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                            onerror="this.src='https://placehold.co/600x450/d77735/ffffff?text=Cashmere+Scarf'">
+                    </div>
+                    <div class="lg:col-span-7 space-y-4 lg:order-1">
+
+                        <h3 class="text-2xl sm:text-3xl font-bold text-brand-charcoal">PASHMINA 100% CASHMERE SCARF</h3>
+                        <p class="text-gray-600 leading-relaxed text-base sm:text-lg">
+                            The luxurious feel of pure cashmere is also available as a scarf (60 x 160 cm). This size
+                            makes this pure cashmere pashmina an elegant everyday companion. The velvety-soft, fluffy
+                            weave, the characteristic open hem, and the lightness of the cashmere wool – there's really
+                            no reason not to make this subtly elegant scarf your favorite everyday accessory.
+                        </p>
+                        <div class="pt-2">
+                            <a href="#custom-made"
+                                class="inline-flex items-center gap-2 text-brand-orange font-semibold hover:underline">
+                                Inquire Wholesale Pricing <i class="fa-solid fa-arrow-right text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div id="cat-shawl-blend"
+                    class="bg-white rounded-3xl p-6 sm:p-10 shadow-md grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-5 h-72 sm:h-80 rounded-2xl overflow-hidden shadow">
+                        <img src="images/silk-cashmere.jpg" alt="PASHMINA 70% CASHMERE 30% SILK Shawl"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                            onerror="this.src='https://placehold.co/600x450/cb6e2d/ffffff?text=Cashmere+Silk'">
+                    </div>
+                    <div class="lg:col-span-7 space-y-4">
+
+                        <h3 class="text-2xl sm:text-3xl font-bold text-brand-charcoal">PASHMINA 70% CASHMERE 30% SILK
+                            Shawl</h3>
+                        <p class="text-gray-600 leading-relaxed text-base sm:text-lg">
+                            One of your favorite products, now available as an elegant stole: measuring 90 x 200 cm and
+                            crafted from a luxurious blend of materials. 70% cashmere and 30% silk offer countless
+                            styling options for this luxurious companion. Thanks to its tightly woven construction, the
+                            fine, smooth fabric boasts a silky feel.<br>
+                            We offer this pashmina in various sizes: in addition to the stole model, it is also
+                            available as a classic (70 x 200 cm). Both are distinguished by their signature twisted
+                            fringe.
+                        </p>
+                        <div class="pt-2">
+                            <a href="#custom-made"
+                                class="inline-flex items-center gap-2 text-brand-orange font-semibold hover:underline">
+                                Inquire Wholesale Pricing <i class="fa-solid fa-arrow-right text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div id="cat-scarf-blend"
+                    class="bg-white rounded-3xl p-6 sm:p-10 shadow-md grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-5 h-72 sm:h-80 rounded-2xl overflow-hidden shadow lg:order-2">
+                        <img src="images/70 cashmere and 30 silk scarf.jpg"
+                            alt="PASHMINA 70% CASHMERE and 30% Silk Scarf"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                            onerror="this.src='https://placehold.co/600x450/e28743/ffffff?text=Silk+Scarf'">
+                    </div>
+                    <div class="lg:col-span-7 space-y-4 lg:order-1">
+
+                        <h3 class="text-2xl sm:text-3xl font-bold text-brand-charcoal">PASHMINA 70% CASHMERE and 30%
+                            Silk Scarf</h3>
+                        <p class="text-gray-600 leading-relaxed text-base sm:text-lg">
+                            One of your favorite products: the Classic Pashmina scarf (70 x 200 cm) in a luxurious
+                            material blend. 70% cashmere and 30% silk, thanks to the closed weave, create a fine, smooth
+                            fabric with a silky feel.
+                        </p>
+                        <div class="pt-2">
+                            <a href="#custom-made"
+                                class="inline-flex items-center gap-2 text-brand-orange font-semibold hover:underline">
+                                Inquire Wholesale Pricing <i class="fa-solid fa-arrow-right text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 5 -->
+                <div id="cat-summer"
+                    class="bg-white rounded-3xl p-6 sm:p-10 shadow-md grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-5 h-72 sm:h-80 rounded-2xl overflow-hidden shadow">
+                        <img src="images/pashmina-for-summer.jpg" alt="Pashmina for summer"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                            onerror="this.src='https://.co/600x450/f0ab72/ffffff?text=Summer+Pashmina'">
+                    </div>
+                    <div class="lg:col-span-7 space-y-4">
+
+                        <h3 class="text-2xl sm:text-3xl font-bold text-brand-charcoal">Pashmina for summer</h3>
+                        <p class="text-gray-600 leading-relaxed text-base sm:text-lg">
+                            (70 x 200 cm) is another luxurious, lightweight cashmere piece that will stylishly accompany
+                            you through the warmer days. The pure cashmere yarn is woven into an airy fabric. The
+                            vibrant, cheerful colors are perfectly complemented by the sheer texture of the delicate
+                            weave. A further refined detail is the soft, open fringed hem. Our Hot Pashmina is a
+                            versatile, lightweight cashmere summer accessory that adds a touch of cheerful elegance.
+                        </p>
+                        <div class="pt-2">
+                            <a href="#custom-made"
+                                class="inline-flex items-center gap-2 text-brand-orange font-semibold hover:underline">
+                                Inquire Wholesale Pricing <i class="fa-solid fa-arrow-right text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer id="footer-section" class="bg-brand-charcoal text-white pt-16 pb-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-gray-700">
+
+                <!-- Left: Subscribe Section -->
+                <div class="md:col-span-5 space-y-4">
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Subscribe to receive exclusive wholesale updates, new seasonal collections, and bespoke cashmere
+                        crafting offers directly from our ateliers in Nepal.
+                    </p>
+                    <form onsubmit="event.preventDefault(); alert('Thank you for subscribing to Wholesale Pashmina!');"
+                        class="flex flex-col sm:flex-row gap-2 pt-2">
+                        <input type="email" placeholder="Enter your business email" required
+                            class="bg-gray-800 border border-gray-700 text-white placeholder-gray-400 text-sm px-4 py-3 rounded-xl focus:outline-none focus:border-brand-orange flex-grow">
+                        <button type="submit"
+                            class="bg-brand-orange hover:bg-brand-darkorange text-white font-medium text-sm px-6 py-3 rounded-xl transition-colors">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Right Menu 1: Popular Products List -->
+                <div class="md:col-span-3 space-y-4">
+                    <h4 class="text-lg font-semibold text-white tracking-wide border-l-2 border-brand-orange pl-3">
+                        Popular Products</h4>
+                    <ul class="space-y-2.5 text-sm text-gray-400">
+                        <li><a href="100_cashmere_shawl.html" class="hover:text-brand-orange transition-colors">100%
+                                Cashmere
+                                Shawl</a></li>
+                        <li><a href="100_cashmere_scarf.html" class="hover:text-brand-orange transition-colors">100%
+                                Cashmere
+                                Scarf</a></li>
+                        <li><a href="70cashmere_30_silk.html" class="hover:text-brand-orange transition-colors">70%
+                                Cashmere
+                                30% Silk Shawl</a></li>
+                        <li><a href="70cashmere_30_silk_scarf.html"
+                                class="hover:text-brand-orange transition-colors">70% Cashmere
+                                30% Silk Scarf</a></li>
+                        <li><a href="cashmere_summer_scarf.html"
+                                class="hover:text-brand-orange transition-colors">Summer Pashmina</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right Menu 2: About the Company / Other stuff -->
+                <div class="md:col-span-4 space-y-4">
+                    <h4 class="text-lg font-semibold text-white tracking-wide border-l-2 border-brand-orange pl-3">About
+                        the Company</h4>
+                    <ul class="space-y-2.5 text-sm text-gray-400">
+                        <li><a href="story.html" class="hover:text-brand-orange transition-colors">Our
+                                Story/Pashmina/Cashmere</a></li>
+                        <li><a href="faq-pashmina-cashmere.html"
+                                class="hover:text-brand-orange transition-colors">General info about Cashmere &
+                                Pashmina</a></li>
+                        <li><a href="blog.html" class="hover:text-brand-orange transition-colors">Our Blogs and
+                                Article</a></li>
+                        <li><a href="contact.html" class="hover:text-brand-orange transition-colors">Our Outlet
+                                Contact</a></li>
+                        <li><a href="colour.html" class="hover:text-brand-orange transition-colors">Neelam Colour
+                                Chart</a></li>
+                        <li><a href="privacy.html" class="hover:text-brand-orange transition-colors">Privacy Policy &
+                                Terms</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-4">
+                <p>&copy; 2026 wholesalepashmina.com. All rights reserved. Handcrafted in Nepal.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-brand-orange transition-colors"><i
+                            class="fa-brands fa-facebook-f text-base"></i></a>
+                    <a href="#" class="hover:text-brand-orange transition-colors"><i
+                            class="fa-brands fa-instagram text-base"></i></a>
+                    <a href="#" class="hover:text-brand-orange transition-colors"><i
+                            class="fa-brands fa-linkedin-in text-base"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking any link inside it
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+
+</html>
